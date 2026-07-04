@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7e5f" />
+      <stop offset="100%" stop-color="#feb47b" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff416c" />
+      <stop offset="100%" stop-color="#ff4b2b" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Background -->
+  <rect width="472" height="472" x="20" y="20" rx="100" fill="url(#bgGrad)" filter="url(#shadow)" />
+
+  <!-- Dumbbell Icon as base fitness aesthetic -->
+  <g transform="translate(256, 170) scale(1.5)" stroke="#ffffff" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.15">
+    <path d="M-40 0 h80" />
+    <path d="M-45 -20 v40" stroke-width="12" />
+    <path d="M-30 -15 v30" stroke-width="10" />
+    <path d="M45 -20 v40" stroke-width="12" />
+    <path d="M30 -15 v30" stroke-width="10" />
+  </g>
+
+  <!-- Big stylized number '90' representing the challenge -->
+  <g filter="url(#shadow)">
+    <!-- Number 9 -->
+    <path d="M 190,180 A 55,55 0 1,1 190,290 A 55,55 0 1,1 190,180 Z M 245,235 L 245,340 C 245,370 215,390 180,390" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Number 0 -->
+    <rect x="270" y="180" width="110" height="160" rx="55" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="32" 
+          stroke-linecap="round" />
+  </g>
+
+  <!-- Center Active Flame Icon inside the 0 representing the streak / energy -->
+  <path d="M 325,225 C 315,225 305,235 305,250 C 305,270 325,290 325,295 C 325,290 345,270 345,250 C 345,235 335,225 325,225 Z" 
+        fill="#ffffff" 
+        opacity="0.9"
+        transform="translate(0, 5)" />
+  
+  <path d="M 325,240 C 320,240 315,245 315,252 C 315,262 325,272 325,275 C 325,272 335,262 335,252 C 335,245 330,240 325,240 Z" 
+        fill="#ff4b2b" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Desafio 90",
+  "description": "Aplicativo de acompanhamento de um desafio de emagrecimento de 90 dias entre um casal com painel comparativo para o administrador.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

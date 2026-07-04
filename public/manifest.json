@@ -1,0 +1,18 @@
+{
+  "short_name": "Desafio 90",
+  "name": "Desafio 90: Desafio de Emagrecimento",
+  "description": "Acompanhamento do desafio de 90 dias de emagrecimento de um casal, com painel comparativo do administrador.",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "theme_color": "#ff6b6b",
+  "display": "standalone",
+  "orientation": "portrait"
+}
